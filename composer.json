@@ -1,0 +1,25 @@
+{
+  "name": "saraivadaniel/simpleframework",
+  "description": "A simple framework for developing PHP apps",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Daniel Costa",
+      "email": "danielslcosta@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Saraiva\\Framework\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "ext-ctype": "*",
+    "ext-json": "*",
+    "nesbot/carbon": "^2",
+    "respect/validation": "^1.1",
+    "twig/twig": "^2.7.4"
+  }
+}
